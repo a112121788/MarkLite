@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- MarkLite
+ MarkEditor
  
  Created by zhubch on 2017/8/21.
  Copyright © 2017年 zhubch. All rights reserved.
@@ -55,7 +55,7 @@
 "Sales"="$0.99/month,1 week free trial";
 "Terms"="Terms";
 "PrivacyPolicy"="Privacy Policy";
-"SubsribeTips"="Subscribe to MarkLite to support further development and gain access to some great extra features:\n 1. Application themes\n 2. Advanced exports to PDF,HTML,JPG\n 3. Markdown styles & code block styles";
+"SubsribeTips"="Subscribe to MarkEditor to support further development and gain access to some great extra features:\n 1. Application themes\n 2. Advanced exports to PDF,HTML,JPG\n 3. Markdown styles & code block styles";
 "CancelSubsribeTips"="The subscription can be canceled at any time.";
 "Restore"="Restore purchase";
 "RestoreTips"="Subscribed on other devices?";
@@ -108,8 +108,8 @@
 "Camera"="Camera";
 "CameraError"="Can not access your camera";
 "PhotoError"="Can not access yours photos";
-"EnableCameraTips"="Tap \"settings\" icon, find and tap \"privacy\", tap \"Camera\", find \"MarkLite\" and enable it.";
-"EnablePhotoTips"="Tap \"settings\" icon, find and tap \"privacy\", tap \"Photos\", find \"MarkLite\" and enable it.";
+"EnableCameraTips"="Tap \"settings\" icon, find and tap \"privacy\", tap \"Camera\", find \"MarkEditor\" and enable it.";
+"EnablePhotoTips"="Tap \"settings\" icon, find and tap \"privacy\", tap \"Photos\", find \"MarkEditor\" and enable it.";
 
 "Instructions"="Instructions";
 

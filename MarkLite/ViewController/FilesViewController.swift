@@ -115,19 +115,19 @@ class FilesViewController: UIViewController {
             navigationController?.interactivePopGestureRecognizer?.delegate = navigationController
         }
         
-        Timer.runThisAfterDelay(seconds: 2) { 
-            let passedDay = Int(Date().timeIntervalSince(Configure.shared.alertDate) / (60 * 60 * 24))
-            if passedDay > 5 {
-                self.feedbackAlert()
-            }
-            if Configure.shared.newVersionAvaliable {
-                self.showAlert(title: /"UpgradeTitle", message: /"UpgradeTips", actionTitles: [/"Upgrade",/"DontUpgrade"], actionHandler: { (index) in
-                    if index == 0 {
-                        UIApplication.shared.openURL(URL(string: upgradeUrl)!)
-                    }
-                })
-            }
-        }
+//        Timer.runThisAfterDelay(seconds: 2) { 
+//            let passedDay = Int(Date().timeIntervalSince(Configure.shared.alertDate) / (60 * 60 * 24))
+//            if passedDay > 5 {
+//                self.feedbackAlert()
+//            }
+//            if Configure.shared.newVersionAvaliable {
+//                self.showAlert(title: /"UpgradeTitle", message: /"UpgradeTips", actionTitles: [/"Upgrade",/"DontUpgrade"], actionHandler: { (index) in
+//                    if index == 0 {
+//                        UIApplication.shared.openURL(URL(string: upgradeUrl)!)
+//                    }
+//                })
+//            }
+//        }
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "nav_edit"), style: .plain, target: self, action: #selector(showCreateMenu))
         

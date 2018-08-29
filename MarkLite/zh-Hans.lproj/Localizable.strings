@@ -1,6 +1,6 @@
 /*
  Localizable.strings
- MarkLite
+ MarkEditor
  
  Created by zhubch on 2017/8/21.
  Copyright © 2017年 zhubch. All rights reserved.
@@ -85,7 +85,7 @@
 
 "Error"="出错了";
 
-"UpgradeTitle"="MarkLite更新啦";
+"UpgradeTitle"="MarkEditor更新啦";
 "UpgradeTips"="为了有更好的使用体验，建议升级到最新版！";
 "Upgrade"="更新";
 "DontUpgrade"="以后再说";
@@ -110,8 +110,8 @@
 "Camera"="相机";
 "CameraError"="没有访问相机的权限";
 "PhotoError"="没有访问照片的权限";
-"EnableCameraTips"="去iPhone的【设置】图标，打开【隐私】，打开【相机】，找到【MarkLite】开启即可";
-"EnablePhotoTips"="去iPhone的【设置】图标，打开【隐私】，打开【照片】，找到【MarkLite】开启即可";
+"EnableCameraTips"="去iPhone的【设置】图标，打开【隐私】，打开【相机】，找到【MarkEditor】开启即可";
+"EnablePhotoTips"="去iPhone的【设置】图标，打开【隐私】，打开【照片】，找到【MarkEditor】开启即可";
 
 "Instructions"="使用教程";
 
