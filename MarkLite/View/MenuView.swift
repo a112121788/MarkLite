@@ -36,7 +36,7 @@ class MenuView: UIView {
         self.items = items
         self.textAlignment = textAlignment
         self.selectedChanged = selectedChanged
-        super.init(frame: CGRect(x: postion.x, y: postion.y, width: 130, height: CGFloat(items.count) * cellHeight - 1))
+        super.init(frame: CGRect(x: postion.x, y: postion.y, width: 100, height: CGFloat(items.count) * cellHeight - 1))
         self.tableView.setBackgroundColor(.tableBackground)
         self.tableView.setSeparatorColor(.primary)
         self.cornerRadius = 1.5

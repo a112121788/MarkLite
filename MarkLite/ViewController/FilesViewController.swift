@@ -91,13 +91,13 @@ class FilesViewController: UIViewController {
             title = /"LocalFile"
             File.loadLocal{ self.root = $0 }
 
-            titleButton.titleLabel?.font = UIFont.font(ofSize: 18)
+            titleButton.titleLabel?.font = UIFont.font(ofSize: 16)
             navigationItem.titleView = titleButton
             titleButton.addTarget(self, action: #selector(showStorageMenu), for: .touchUpInside)
         } else {
             title = root?.name
             navigationItem.titleView = titleTextField
-            titleTextField.font = UIFont.font(ofSize: 18)
+            titleTextField.font = UIFont.font(ofSize: 16)
             titleTextField.textAlignment = .center
             titleTextField.setTextColor(.navBarTint)
             titleTextField.delegate = self
@@ -195,7 +195,7 @@ class FilesViewController: UIViewController {
     func showStorageMenu() {
         let items = [/"LocalFile",/"iCloud"]
         MenuView(items: items,
-                 postion: CGPoint(x:(view.w - 140) * 0.5,y: 64),
+                 postion: CGPoint(x:(view.w - 120) * 0.5,y: 64),
                  textAlignment: .center) { (index) in
                     self.title = items[index]
                     if index == 0 {
@@ -208,7 +208,7 @@ class FilesViewController: UIViewController {
     
     func showCreateMenu() {
         MenuView(items: [/"CreateNote",/"CreateFolder"],
-                 postion: CGPoint(x:view.w - 140,y: isPad ? 44 : 64),
+                 postion: CGPoint(x:view.w - 120,y: isPad ? 44 : 64),
                  textAlignment: .left) { (index) in
             guard let file = self.root?.createFile(name: /"Untitled", type: index == 0 ? .text : .folder) else {
                 return

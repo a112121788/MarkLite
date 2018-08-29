@@ -27,7 +27,7 @@ extension String: ButtonConvertiable {
     func makeButton() -> UIButton {
         let button = UIButton(type: UIButtonType.system)
         button.setTitle(self, for: .normal)
-        button.titleLabel?.font = UIFont.font(ofSize: 18, bold: true)
+        button.titleLabel?.font = UIFont.font(ofSize: 16, bold: true)
         return button
     }
 }

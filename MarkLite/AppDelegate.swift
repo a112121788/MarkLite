@@ -87,7 +87,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationBar.backIndicatorTransitionMaskImage = backImage
         
         SideMenuManager.menuFadeStatusBar = false
-        SideMenuManager.menuWidth = isPad ? 400 : 300
+        SideMenuManager.menuWidth = isPad ? 300 : 200
         SideMenuManager.menuPushStyle = .subMenu
         SideMenuManager.menuPresentMode = isPhone ? .viewSlideOut : .menuSlideIn
 

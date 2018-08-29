@@ -54,7 +54,7 @@ class EditViewController: UIViewController {
         }
         
         navigationItem.titleView = titleTextField
-        titleTextField.font = UIFont.font(ofSize: 18)
+        titleTextField.font = UIFont.font(ofSize: 16)
         titleTextField.textAlignment = .center
         titleTextField.setTextColor(.navBarTint)
         titleTextField.delegate = self
@@ -80,8 +80,8 @@ class EditViewController: UIViewController {
             scrollView.setContentOffset(CGPoint(x:windowWidth , y:0), animated: true)
         }
         
-        let items = [ExportType.pdf,.markdown,.html,.image]
-        var pos = CGPoint(x: windowWidth - 140, y: 65)
+        let items = [ExportType.image]
+        var pos = CGPoint(x: windowWidth - 120, y: 65)
         if let view = sender as? UIView {
             pos = view.origin
             if Configure.shared.isLandscape.value {
